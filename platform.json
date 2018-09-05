@@ -1,0 +1,75 @@
+{
+  "name": "truckduino",
+  "title": "Truckduino",
+  "description": "Truckduino automatic control systems",
+  "url": "https://github.com/microseti/truckduino",
+  "homepage": "https://truckduino.ru",
+  "license": "Apache-2.0",
+  "engines": {
+    "platformio": ">=3.0.0",
+    "scons": ">=2.3.0,<2.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/microseti/truckduino.git"
+  },
+  "version": "1.1.0",
+  "packageRepositories": [
+    "https://dl.bintray.com/platformio/dl-packages/manifest.json",
+    "http://dl.platformio.org/packages/manifest.json"
+  ],
+  "frameworks": {
+    "cmsis": {
+      "package": "framework-cmsis",
+      "script": "builder/frameworks/cmsis.py"
+    },
+    "spl": {
+      "package": "framework-spl",
+      "script": "builder/frameworks/spl.py"
+    },
+    "libopencm3": {
+      "package": "framework-libopencm3",
+      "script": "builder/frameworks/libopencm3/libopencm3.py"
+    },
+    "arduino": {
+      "package": "framework-arduinoststm32",
+      "script": "builder/frameworks/arduino.py"
+    }
+  },
+  "packages": {
+    "toolchain-gccarmnoneeabi": {
+      "type": "toolchain",
+      "version": ">=1.40803.0,<1.40805.0"
+    },
+    "framework-cmsis": {
+      "type": "framework",
+      "optional": true,
+      "version": "~1.40300.0"
+    },
+    "framework-spl": {
+      "type": "framework",
+      "optional": true,
+      "version": "~1.10201.0"
+    },
+    "framework-libopencm3": {
+      "type": "framework",
+      "optional": true,
+      "version": "~1.1.0"
+    },
+    "framework-arduinoststm32": {
+      "type": "framework",
+      "optional": true,
+      "version": "~2.0.0"
+    },
+    "tool-stlink": {
+      "type": "uploader",
+      "optional": true,
+      "version": "~1.10200.0"
+    },
+    "tool-stm32duino": {
+      "type": "uploader",
+      "optional": true,
+      "version": "~1.0.0"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Truckduino-ModbusRtu",
+  "keywords": "modbus, usart",
+  "version": "1.0.0",
+  "description": "Modbus core for supporting in Truckduino",
+  "include": "libraries/ModbusRtu",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/microseti/truckduino.git"
+  },
+  "frameworks": "arduino",
+  "platforms": "truckduino"
+}

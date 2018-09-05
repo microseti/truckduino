@@ -1,0 +1,196 @@
+#######################################
+# Syntax Coloring Map For TaskManager
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+Control   KEYWORD1
+Extension KEYWORD1
+Indicator KEYWORD1
+Input     KEYWORD1
+Modbus1   KEYWORD1
+Modbus2   KEYWORD1
+Modbus3   KEYWORD1
+Watchdog  KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin KEYWORD2
+
+# Indicator
+displayOn			    KEYWORD2
+displayOff			  KEYWORD2
+displayTest			  KEYWORD2
+displayClear		  KEYWORD2
+displayString		  KEYWORD2
+displayDigit		  KEYWORD2
+displayDot			  KEYWORD2
+displayBrightness	KEYWORD2
+buttonPress			  KEYWORD2
+
+# Control
+valveLeft		  KEYWORD2
+valveRight		KEYWORD2
+valveOff		  KEYWORD2
+valveGet		  KEYWORD2
+valveStateGet	KEYWORD2
+relayOn			  KEYWORD2
+relayOff		  KEYWORD2
+relayGet		  KEYWORD2
+
+# Extension
+counterConfig	  KEYWORD2
+counterReset	  KEYWORD2
+counterFreqGet	KEYWORD2
+counterCountGet	KEYWORD2
+counterCountSet	KEYWORD2
+pwmWrite		    KEYWORD2
+pioConfig		    KEYWORD2
+pioWrite		    KEYWORD2
+pioRead			    KEYWORD2
+adcRead			    KEYWORD2
+i2c				      KEYWORD2
+
+# Input
+filterConfig         KEYWORD2
+discreteConfig       KEYWORD2
+valuePercentConfig   KEYWORD2
+voltagePercentConfig KEYWORD2
+currentPercentConfig KEYWORD2
+valueRead            KEYWORD2
+voltageRead          KEYWORD2
+currentRead          KEYWORD2
+discreteRead         KEYWORD2
+percentRead          KEYWORD2
+input_values         KEYWORD2
+filter_values        KEYWORD2
+filter_levels        KEYWORD2
+
+# Modbus
+polla            KEYWORD2
+masterQueryClear KEYWORD2
+masterQueryAdd   KEYWORD2
+slaveConfigure   KEYWORD2
+start            KEYWORD2
+busy             KEYWORD2
+resume           KEYWORD2
+pause            KEYWORD2
+
+# Watchdog
+ready KEYWORD2
+reset KEYWORD2
+    
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+# Indicator
+Button  LITERAL1
+NONE    LITERAL1
+K1      LITERAL1
+K2      LITERAL1
+K3      LITERAL1
+Display LITERAL1
+N1      LITERAL1
+N2      LITERAL1
+N3      LITERAL1
+N4      LITERAL1
+Brightness LITERAL1
+DEFAULT    LITERAL1
+LEVEL1    LITERAL1
+LEVEL2    LITERAL1
+LEVEL3    LITERAL1
+LEVEL4    LITERAL1
+LEVEL5    LITERAL1
+LEVEL6    LITERAL1
+LEVEL7    LITERAL1
+LEVEL8    LITERAL1
+
+# Control
+CONTROL_INT1	LITERAL1
+CONTROL_INT2	LITERAL1
+Valve	  LITERAL1
+VALVE1	LITERAL1
+VALVE2	LITERAL1
+VALVE3	LITERAL1
+VALVE4	LITERAL1
+VALVE5	LITERAL1
+VALVE6	LITERAL1
+VALVE7	LITERAL1
+VALVE8	LITERAL1
+VALVE9	LITERAL1
+VALVE10	LITERAL1
+VALVE11	LITERAL1
+VALVE12	LITERAL1
+VALVE13	LITERAL1
+VALVE14	LITERAL1
+VALVE15	LITERAL1
+VALVE16	LITERAL1
+VALVE17	LITERAL1
+VALVE18	LITERAL1
+Relay	  LITERAL1
+RELAY1	LITERAL1
+RELAY2	LITERAL1
+RELAY3	LITERAL1
+RELAY4	LITERAL1
+CtrlState	LITERAL1
+FAILURE		LITERAL1
+OVERRANGE	LITERAL1
+NORMAL		LITERAL1
+ON			LITERAL1
+OFF			LITERAL1
+LEFT		LITERAL1
+RIGHT		LITERAL1
+
+# Extension
+Counter  LITERAL1
+COUNTER1 LITERAL1
+COUNTER2 LITERAL1
+Pwm		LITERAL1
+PWM1	LITERAL1
+PWM2	LITERAL1
+Pio		LITERAL1
+PIO1	LITERAL1
+PIO2	LITERAL1
+
+# Input
+INPUT_FILTER_MAX     LITERAL1
+INPUT_DISCRETE_THOLD LITERAL1
+INPUT_DISCRETE_HYST  LITERAL1
+INPUT1               LITERAL1
+INPUT2               LITERAL1
+INPUT3               LITERAL1
+INPUT4               LITERAL1
+INPUT5               LITERAL1
+INPUT6               LITERAL1
+INPUT7               LITERAL1
+INPUT8               LITERAL1
+INPUT_MAX            LITERAL1
+
+# Modbus
+MODBUS_NONE                     LITERAL1
+MODBUS_READ_COILS               LITERAL1
+MODBUS_READ_DISCRETE_INPUT      LITERAL1
+MODBUS_READ_REGISTERS           LITERAL1
+MODBUS_READ_INPUT_REGISTER      LITERAL1
+MODBUS_WRITE_COIL               LITERAL1
+MODBUS_WRITE_REGISTER           LITERAL1
+MODBUS_WRITE_MULTIPLE_COILS     LITERAL1
+MODBUS_WRITE_MULTIPLE_REGISTERS LITERAL1
+ModbusChannel LITERAL1
+MODBUS1       LITERAL1
+MODBUS2       LITERAL1
+MODBUS3       LITERAL1
+ModbusRole    LITERAL1
+SLAVE         LITERAL1
+MASTER        LITERAL1
+ModbusStatus  LITERAL1
+STA_IDLE      LITERAL1
+STA_INIT      LITERAL1
+STA_CONFIGURE LITERAL1
+STA_PAUSE     LITERAL1
+STA_RUN       LITERAL1
