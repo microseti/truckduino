@@ -19,7 +19,7 @@ Truckduino board build on STM32 microcontroller. The STM32 family of 32-bit Flas
 * Скачайте программу **Git** по [ссылке](https://git-scm.com/download/win) и установите ее.
 * Запустите терминал в **PlatformIO** (`Menu: PlatformIO > Terminal > New Terminal`) и введите следующую команду:
 ```bash
-> pio platform install https://github.com/microseti/truckduino.git
+> pio platform install https://github.com/microseti/truckduino
 ```
 ## 4. Установка библиотеки ядра Truckduino:
 * В терминале **PlatformIO** введите следующую команду:
