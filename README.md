@@ -17,12 +17,12 @@ Truckduino board build on STM32 microcontroller. The STM32 family of 32-bit Flas
 * Установите **Clang**, в диалоговом окне установщика выберите пункт **"Add LLVM to the system PATH"**.
 ## 3. Установка платформы для разработчиков Truckduino:
 * Скачайте программу **Git** по [ссылке](https://git-scm.com/download/win) и установите ее.
-* Запустите терминал в **PlatformIO** (`Menu: PlatformIO > Terminal > New Terminal`) и введите следующую команду:
+* Запустите терминал в **PlatformIO** (`Menu: PlatformIO > Terminal > New Terminal`) и выполните следующую команду:
 ```bash
 > pio platform install https://github.com/microseti/truckduino
 ```
 ## 4. Установка библиотеки ядра Truckduino:
-* В терминале **PlatformIO** введите следующую команду:
+* В терминале **PlatformIO** выполните следующую команду:
 ```bash
 > pio lib -g install Truckduino-Core
 ```
@@ -53,7 +53,7 @@ void loop() {
     Watchdog.reset();
 }
 ```
-* У вас должна получиться следующая структура файлов:
+* У вас должна получиться такая структура файлов:
 ```
 +-- truckduino-test
 |   |
