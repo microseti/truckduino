@@ -55,10 +55,10 @@ void loop() {
 ```
 * У вас должна получиться такая структура файлов:
 ```
-|-- truckduino-test
-|   |- platformio.ini
-|   |--src
-|      |- main.cpp
+|--truckduino-test
+|  |- platformio.ini
+|  |--src
+|     |- main.cpp
 ```
 * Откройте директорию `truckduino-test` правым кликом мыши и выбором пункта из меню **"открыть с помощью Atom"**.
 * В редакторе **Atom** запустите сборку проекта командой `Menu: PlatformIO > Build`.
