@@ -1,4 +1,3 @@
 /.vscode
-/libraries/html
-/libraries/run-rsync
+/libraries/doxygen/html
 
