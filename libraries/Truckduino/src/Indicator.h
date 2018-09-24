@@ -13,8 +13,8 @@
  *
  *  Описание (Datasheet) микросхемы индикатора TM1650:
  *  <ul>
- *    <li><a href='../../Truckduino/info/tm1650-rus.pdf'>на русском языке</a>
- *    <li><a href='../../Truckduino/info/tm1650-rus.pdf'>на китайском языке (оригинал)</a>
+ *    <li><a href='tm1650-rus.pdf'>на русском языке</a>
+ *    <li><a href='tm1650-cn.pdf'>на китайском языке (оригинал)</a>
  *  </ul>
  * 
  * @defgroup indic_setup    Модуль индикации. Инициализация
